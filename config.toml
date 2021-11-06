@@ -1,0 +1,26 @@
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "http://jisbruzzi.github.io/"
+googleAnalytics = ""
+theme = "hugo-vitae"
+
+[params]
+  author = "José Ignacio Sbruzzi"
+  title = "CV - José Ignacio Sbruzzi"
+  description = "Software Engineer"
+  avatar = "profile.png"
+  email = "jose.sbru@gmail.com"
+  email_full = "mailto:jose.sbru@gmail.com"
+  website = "jisbruzzi.github.io"
+  website_full = "https://jisbruzzi.github.io/"
+  github = "jisbruzzi"
+  linkedin = "jisbruzzi"
+  tel = "+5491130070139"
+  tel_full = "+5491130070139"
+  address = "Avellaneda"
+  city = "Buenos Aires"
+  country = "Argentina"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []

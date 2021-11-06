@@ -1,0 +1,23 @@
+<header class="three columns">
+  <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
+  <h1>{{ .Site.Params.author }}</h1>
+  <p>
+    <a href="tel:{{ .Site.Params.tel_full }}">{{ .Site.Params.tel }}</a>
+  </p>
+  <address>
+    {{ if .Site.Params.google_maps }}<a href="{{ .Site.Params.google_maps }}"> {{ end }}
+      {{if .Site.Params.address}}{{ .Site.Params.address }}<br/>{{end}}
+      {{if .Site.Params.postcode}}{{ .Site.Params.postcode }}<br/>{{end}}
+      {{ if .Site.Params.city }} {{ .Site.Params.city }}<br/> {{end}}
+      {{ .Site.Params.country }}
+      {{ if .Site.Params.google_maps }}</a> {{ end }}
+  </address>
+  <p>
+    <a href="{{ .Site.Params.website_full }}">{{ .Site.Params.website }}</a><br/>
+  </p>
+  <p>
+    <a href="{{ .Site.Params.email_full }}">{{ .Site.Params.email }}</a>
+    <a href="http://github.com/{{ .Site.Params.github }}"><i class="fa fa-github"></i>&nbsp;Github</a> /
+    <a href="http://https://www.linkedin.com/in/{{ .Site.Params.linkedin }}"><i class="fa fa-linkedin"></i>&nbsp;Linkedin</a>
+  </p>
+</header>
