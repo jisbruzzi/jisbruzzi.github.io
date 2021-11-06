@@ -1,16 +1,21 @@
 {{ partial "head" . }}
+  <link rel="stylesheet" href="css/extra.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/layout.css">
   <body>
     <div class="container">
       {{ partial "header" . }}
-      <div class="thirteen columns clearfix">
+      <div class="nine columns clearfix">
+        <section class="thirteen columns"></section>
         {{ partial "profile" . }}
         {{ partial "skills" . }}
-        {{ partial "employment" . }}
-        {{ partial "education" . }}
-        {{ partial "initiatives" . }}
-        {{ partial "hobbies" . }}
-        {{ partial "footer" . }}
       </div>
+      {{ partial "employment" . }}
+      {{ partial "education" . }}
+      {{ partial "initiatives" . }}
+      {{ partial "hobbies" . }}
+      {{ partial "footer" . }}
     </div>
   </body>
 </html>

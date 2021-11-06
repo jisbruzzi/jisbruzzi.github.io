@@ -1,27 +1,96 @@
-name: Employment
+name: Work Experience
 source:
+  - prof: Frontend software engineer
+    place: Entropy offshore development center (Remote)
+    time: Since Aug. 2021
+    intro: |
+      I am working as a frontend software developer while also carrying out some backend tasks.
+    projects: 
+        - name: 'Vehicle marketing company'
+          content: |
+            This is a stablished startup from the USA that is improving their product. My tasks:
+            - Improve UI code quality significatively
+            - Some general backend work
+            
+            **Technologies:** sqlalchemy, react, AWS, react-query, spring framework.
   - prof: Software Engineer
-    place: Edinburgh, UK
-    time: 2015 to Present
-    description: Lorem ipsum dolor sit amet, his et viris petentium philosophia, at vix debitis deleniti. At vis velit volumus alienum, agam vocent assueverit usu ex.
+    place: Remote
+    time: Sep. 2020 to Jul. 2021
+    intro: |
+      MVP for different industries. During this time I created 2 projects from nothing (including CI/CD, infrastructure, architecture):
+    projects: 
+        - name: 'Project: NDA: Nutrición en Acción'
+          content: |
+            Nutrition Suite. Main tasks:
+            - Rewrite the application using newer technologies that were easier to maintain, while
+            keeping the previous database.
+            - Build the testing pipeline and suite, Gitlab for CI
+            - Fully committed to the principles of the Agile, with constant communication and
+            delivery of value
+            My main achievement was the extensive testing. Given the large number of screens and
+            user stories supported, and how critical the software is for the functioning of NDA, the
+            application has an extensive test suite that is run constantly and assures that no bugs
+            reach the users.
+            
+            **Technologies:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS.
+        - name: 'Project: Zonia Music'
+          content: |
+            Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main tasks:
+            - Design and implementation of frontend architecture for a new website.
+            - Design and implementation of backend architecture for a new website.
+            - Integration with MercadoPago’s payment suite.
+            
+            **Technologies:** django, django rest framework, wagtail admin, react, tailwind, css, Google Cloud Run, firebase.
 
-  - prof: iOS Developer
-    place: Glasgow, UK
-    time: 2014 to 2015
-    description: Qui bonorum menandri intellegebat ex, mel quando oblique an. Et eam virtute debitis philosophia, unum ancillae disputationi vim in. Ipsum vidisse meliore ex eum, delectus tacimates conclusionemque has ei. Eam ubique cetero scribentur ne.
+  - prof: Software Engineer
+    place: C&S Argentina. Buenos Aires, Argentina
+    time: Nov. 2018 to Sep. 2020
+    intro: |
+      Full-service provider of technology consulting, software design and development services. During this time I participated in the following projects:
+    projects:
+      - name: 'Argentine Government Project'
+        content: |
+          Hiring suite for government providers and licitations management system. Main tasks:
+          - I was in charge of fixing bugs and refactoring technical debt.
+          - I contributed to the design of the software development process of a specific project.
+          - Software design and implementation of a medium-sized, independent module.
+          - Write several functional documents.
 
-  - prof: Teaching Assistant
-    place: University of Glasgow, Glasgow, UK
-    time: 2013 to 2014
-    description: Latine bonorum deserunt at nam. Mea nisl officiis eu, propriae similique has te, mei an brute meliore electram. Quo admodum omittantur ei, etiam principes at eos. Sit vocent commodo ceteros in, at mel idque everti.
-  
-  - prof: iOS Developer
-    place: Student Start-up, Glasgow, UK
-    time: 2013
-    description: Mucius sententiae et mei, nec an diam ignota, tale epicurei intellegebat ne sit. Sumo pertinacia contentiones duo ei.
+          **Technologies:** C#, ASP.NET webforms, ASP.NET MVC, GIT, bootstrap, SQL server, NHibernate
+      - name: Confidential Project
+        content: |
+          Large size application. Main tasks executed in the project:
+          - Bugs fixing and technical debt refactoring.
+          - Research, design and implementation of a software development process that was specific to that project.
+          - Write some functional documents for new functionalities.
 
-  - prof: Web Developer
-    place: Birmingham, UK
-    time: 2007 to 2010
-    description: Et sed tritani volumus, dico rebum facilisis ea sed. His mundi efficiantur concludaturque no. Cu eos argumentum constituam repudiandae, eu eum lorem nostrum, ei mel dicam iriure fabellas.
+          **Technologies:** Java, spring framework, bootstrap, SQL server.
+
+  - prof: Machine Learning Developer
+    place: Ayi & Asociados. Bs As, Argentina
+    time: Apr. 2018 to Nov. 2018
+    intro: |
+      I built MVPs with Machine Learning technologies. During this time I participated in the following projects:
+    projects:
+      - name: 'Project: Face Recognition Totem (Jun 2018 – Oct 2018)'
+        content: |
+          Face recognition product to authenticate visitors that has scheduled meetings on Offices
+          buildings. Main tasks executed in the project:
+          - Integrate Face++ API with Local database
+          - Test and Integrate solution with hardware (Cams) through different stream
+          protocols.
+          My main achievement was to develop a test suite and tooling to track performance and quality of our solution.
+
+          **Technologies:** Face++ API, AWS, Python, C#, Django, dlib, OpenCV.
+      - name: 'Project: Face Recognition Watcher (Jun 2018 – Oct 2018)'
+        content: |
+          Face recognition product to watch for non trusted visitors on home buildings.
+          Main tasks executed in the project:
+          - Integrate Face++ API with Local database
+          - Test and Integrate solution with hardware (Cams) through different stream
+          protocols.
+          - Test and integrate with a security provider system
+          My main achievement was to design an API for third party integrations.
+
+          **Technologies:** Face++ API, AWS, Python, C#, Django, dlib, OpenCV.
     
