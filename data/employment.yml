@@ -1,6 +1,6 @@
 name: Work Experience
 source:
-  - prof: Frontend software engineer
+  - prof: Frontend-oriented software engineer
     place: Entropy offshore development center (Remote)
     time: Since Aug. 2021
     intro: |
@@ -14,7 +14,7 @@ source:
             
             **Technologies:** sqlalchemy, react, AWS, react-query, spring framework.
   - prof: Software Engineer
-    place: Remote
+    place: Freelance (Remote)
     time: Sep. 2020 to Jul. 2021
     intro: |
       MVP for different industries. During this time I created 2 projects from nothing (including CI/CD, infrastructure, architecture):
