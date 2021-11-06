@@ -8,13 +8,13 @@
       {{ partial "header" . }}
       <div class="nine columns clearfix">
         <section class="thirteen columns"></section>
-        {{ partial "profile" . }}
+        {{ partial "section" .Site.Data.profile }}
         {{ partial "skills" . }}
       </div>
       {{ partial "employment" . }}
+      {{ partial "section" .Site.Data.academic_achievements }}
+      {{ partial "section" .Site.Data.other_achievements }}
       {{ partial "education" . }}
-      {{ partial "initiatives" . }}
-      {{ partial "hobbies" . }}
       {{ partial "footer" . }}
     </div>
   </body>
