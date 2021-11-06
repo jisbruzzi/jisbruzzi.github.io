@@ -1,0 +1,15 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.skills.name }}</h1>
+  <article>
+    {{ range .Site.Data.skills.categories }}
+    <header>
+      <h1>{{ .name }}</h1>
+      <div style="display:flex;justify-content: flex-start; flex-wrap: wrap;" class="thirteen columns">
+        {{ range .items }}
+          <div style="margin:5px;">{{ . | markdownify }}</div>
+        {{ end }}
+      </div>
+    </header>
+    {{ end }}
+  </article>
+</section>

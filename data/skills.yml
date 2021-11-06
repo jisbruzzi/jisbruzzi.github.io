@@ -1,11 +1,56 @@
-name: Programming Skills
-title: Software engineering & web development
-source:
-  - name: [C/C++, Objective-C]
-    stars: 5
-
-  - name: [Java, Python, PHP, Git]
-    stars: 4
-
-  - name: [HTML/CSS3, Javascript]
-    stars: 3
+name: Tech Skills
+categories:
+  - name: Platforms
+    items:
+      - Gitlab
+      - Jira
+      - GCP
+      - AWS
+      - Cypress
+      - Github
+      - Firebase
+      - Docker
+  - name: Technologies & Languages
+    items:
+      - '**React JS**'
+      - '**Python**'
+      - '**Node JS**'
+      - flask 
+      - CI/CD
+      - django
+      - Vue JS
+      - Quasar
+      - numpy
+      - Redux
+      - terraform
+      - C
+      - React Native
+      - webgl
+      - C++ 
+      - Semantic UI
+      - ocaml
+      - C# 
+      - Material UI
+      - lisp
+      - Java
+      - Bootstrap
+      - clojure
+      - Javascript
+      - Bulma
+      - coq
+      - typescript
+      - tailwind
+      - IIS
+      - nextJS 
+      - Sass
+      - GLSL
+      - Gastby
+      - JWT
+      - Electron JS
+      - Jest
+  - name: Databases
+    items:
+      - mongoDB
+      - Firestore
+      - GraphQL
+      - SQL
