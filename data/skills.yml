@@ -1,24 +1,17 @@
 name: Tech Skills
 categories:
-  - name: Platforms
-    items:
-      - Gitlab
-      - Jira
-      - GCP
-      - AWS
-      - Cypress
-      - Github
-      - Firebase
-      - Docker
   - name: Technologies & Languages
     items:
+      - '**Typescript**'
       - '**React JS**'
       - '**Python**'
       - '**Node JS**'
+      - Jest
+      - nextJS
       - flask 
       - CI/CD
       - django
-      - Vue JS
+      - Vue 2
       - Quasar
       - numpy
       - Redux
@@ -27,7 +20,6 @@ categories:
       - React Native
       - webgl
       - C++ 
-      - Semantic UI
       - ocaml
       - C# 
       - Material UI
@@ -38,7 +30,6 @@ categories:
       - Javascript
       - Bulma
       - coq
-      - typescript
       - tailwind
       - IIS
       - nextJS 
@@ -47,10 +38,19 @@ categories:
       - Gastby
       - JWT
       - Electron JS
-      - Jest
   - name: Databases
     items:
       - mongoDB
       - Firestore
       - GraphQL
       - SQL
+  - name: Platforms
+    items:
+      - Gitlab
+      - Jira
+      - GCP
+      - AWS
+      - Cypress
+      - Github
+      - Firebase
+      - Docker
