@@ -5,39 +5,39 @@ categories:
       - '**Typescript**'
       - '**React JS**'
       - '**Python**'
-      - '**Node JS**'
       - Jest
       - nextJS
+      - Redux
+      - JWT
+      - Sass
       - flask 
       - CI/CD
       - django
       - Vue 2
-      - Quasar
-      - numpy
-      - Redux
       - terraform
+      - Quasar
+      - Node JS
+      - numpy
+      - Java
+      - Spring boot
       - C
-      - React Native
       - webgl
       - C++ 
-      - ocaml
       - C# 
       - Material UI
       - lisp
-      - Java
       - Bootstrap
       - clojure
       - Javascript
       - Bulma
-      - coq
       - tailwind
       - IIS
       - nextJS 
-      - Sass
       - GLSL
       - Gastby
-      - JWT
       - Electron JS
+      - ocaml
+      - coq
   - name: Databases
     items:
       - mongoDB
