@@ -1,6 +1,6 @@
 name: Work Experience
 source:
-  - prof: Frontend-oriented software engineer
+  - prof: Frontend-oriented Full-stack software engineer
     place: Entropy offshore development center (Remote)
     time: Since Aug. 2021
     intro: |
@@ -9,36 +9,43 @@ source:
         - name: 'Vehicle marketing company'
           content: |
             This is a stablished startup from the USA that is improving their product. My tasks:
-            - Improve UI code quality significatively
-            - Some general backend work
+            - Improve UI code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
+            - Full-stack development of several features. Highlights:
+              - Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA.
+              - Full redesigns of the UI of the product, in which I took most of the work that required.
             
-            **Technologies:** sqlalchemy, react, AWS, react-query, spring framework.
-  - prof: Software Engineer
+            My biggest achievement was being able to adapt to new ways of working through multiple leadership changes.
+            
+            **Technologies:** typescript, react, next.js, Material UI, react-query, java, spring boot, redshift, AWS.
+  - prof: Generalist Software Engineer
     place: Freelance (Remote)
     time: Sep. 2020 to Jul. 2021
     intro: |
-      MVP for different industries. During this time I created 2 projects from nothing (including CI/CD, infrastructure, architecture):
+      MVP for different industries. During this time I created 2 projects from scratch (including CI/CD, infrastructure, architecture):
     projects: 
         - name: 'Project: NDA: Nutrición en Acción'
           content: |
             Nutrition Suite. Main tasks:
-            - Rewrite the application using newer technologies that were easier to maintain, while
-            keeping the previous database.
+            - Rewrite the application with flask, while keeping the previous database.
             - Build the testing pipeline and suite, Gitlab for CI
             - Fully committed to the principles of the Agile, with constant communication and
             delivery of value
-            My main achievement was the extensive testing. Given the large number of screens and
+
+            My biggest achievement was the extensive testing. Given the large number of screens and
             user stories supported, and how critical the software is for the functioning of NDA, the
             application has an extensive test suite that is run constantly and assures that no bugs
-            reach the users.
+            reach the users. In this case the client had some experience working with agile 
+            methodologies, we established a workflow that was very pleasant for all parties involved.
             
-            **Technologies:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS.
+            **Technologies:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS, metabase.
         - name: 'Project: Zonia Music'
           content: |
             Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main tasks:
             - Design and implementation of frontend architecture for a new website.
             - Design and implementation of backend architecture for a new website.
-            - Integration with MercadoPago’s payment suite.
+            - Integration with MercadoPago's payment suite.
+
+            My main achievement was teaching
             
             **Technologies:** django, django rest framework, wagtail admin, react, tailwind, css, Google Cloud Run, firebase.
 
@@ -87,7 +94,7 @@ source:
           Face recognition product to watch for non trusted visitors on home buildings.
           Main tasks executed in the project:
           - Integrate Face++ API with Local database
-          - Test and Integrate solution with hardware (Cams) through different stream
+          - Test and Integrate solution with hardware (Cameras) through different stream
           protocols.
           - Test and integrate with a security provider system
           My main achievement was to design an API for third party integrations.

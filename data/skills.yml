@@ -3,8 +3,10 @@ categories:
   - name: Technologies & Languages
     items:
       - '**Typescript**'
-      - '**React JS**'
+      - '**React**'
       - '**Python**'
+      - Material UI
+      - Java
       - Jest
       - nextJS
       - Redux
@@ -17,19 +19,15 @@ categories:
       - terraform
       - Quasar
       - Node JS
-      - numpy
-      - Java
+      - '**numpy**'
       - Spring boot
       - C
       - webgl
-      - C++ 
       - C# 
-      - Material UI
       - lisp
       - Bootstrap
       - clojure
       - Javascript
-      - Bulma
       - tailwind
       - IIS
       - nextJS 
