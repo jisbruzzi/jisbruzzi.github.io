@@ -6,7 +6,7 @@ source:
     projects: 
         - name: 'Vehicle marketing company'
           content: |
-            - A Chrome extension that is key to the company's value proposition would break constantly which demanded overtime from several members of the team. I created unit tests and used them to refactor, which greatly increased its stability and reliability.
+            - A Chrome extension that is key to the company value proposition would break constantly which demanded overtime from several members of the team. I created unit tests and used them to refactor, which greatly increased its stability and reliability.
             - I made the chrome extension work in a wide variety of websites built with several different web technologies. My full-stack experience was a key factor to resolve these issues.
             - I carried out the development of multiple full redesigns of our main UI, which impacted every single one of our users, increasing engagement.
             - Full-stack development of complex reports. I was able to do some query optimizations and communicate with our DBA to suggest indexes.
