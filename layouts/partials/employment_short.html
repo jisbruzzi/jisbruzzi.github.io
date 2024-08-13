@@ -1,0 +1,29 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.employment.name }}</h1>
+  {{ range .Site.Data.employment_short.source }}
+  <article>
+    <header>
+      <h1>{{ .prof }}</h1>
+      {{ if .place }}
+      <span>
+        <address>{{ .place }}</address>
+        <time>{{ .time }}</time>
+      </span>
+      {{ else }}
+      <span>
+        <time>{{ .time }}</time>
+      </span>
+      {{ end }}
+    </header>
+    {{ .intro | markdownify }}
+    <div style="margin-top:15px;">
+      {{ range .projects }}
+      <div style="margin-bottom: 15px; margin-left:15px;">
+        <h3>{{ .name }}</h3>
+        {{ .content | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+</section>

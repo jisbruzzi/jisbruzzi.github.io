@@ -4,7 +4,7 @@ publishdir = "public"
 baseurl = "http://jisbruzzi.github.io/"
 googleAnalytics = ""
 theme = "hugo-vitae"
-
+contentDir="content"
 [params]
   author = "José Ignacio Sbruzzi"
   title = "CV - José Ignacio Sbruzzi"

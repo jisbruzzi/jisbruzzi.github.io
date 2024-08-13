@@ -1,0 +1,12 @@
+<header>
+  <div style="display:flex;column-gap: 40px; justify-content: center; align-items: center;">
+    <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
+    <h1>{{ .Site.Params.author }}</h1>
+  </div>
+  <div style="display:flex;column-gap: 40px; justify-content: center;">
+    <a href="{{ .Site.Params.website_full }}">{{ .Site.Params.website }}</a>
+    <a href="{{ .Site.Params.email_full }}">{{ .Site.Params.email }}</a>
+    <a href="http://github.com/{{ .Site.Params.github }}"><i class="fa fa-github"></i>&nbsp;Github</a>
+    <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}"><i class="fa fa-linkedin"></i>&nbsp;Linkedin</a>
+  </div>
+</header>
