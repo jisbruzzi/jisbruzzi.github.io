@@ -6,7 +6,7 @@ source:
     projects: 
         - name: Velocity Automotive
           content: |
-            - Improve UI code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
+            - Improve code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
             - Full-stack development of several features. Highlights:
               - Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA.
               - Full redesigns of the UI of the product, in which I took most of the work that required.

@@ -1,14 +1,12 @@
 name: Work Experience
 source:
-  - prof: Frontend-oriented Full-stack software engineer
-    place: Entropy offshore development center (Remote)
+  - prof: Full-stack software engineer
+    place: Entropy team (Remote)
     time: Since Aug. 2021
-    intro: |
-      I am working as a frontend software developer while also carrying out some backend tasks.
     projects: 
         - name: 'Vehicle marketing company'
           content: |
-            - Improve UI code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
+            - Improve code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
             - Full-stack development of several features. Highlights:
               - Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA.
               - Full redesigns of the UI of the product, in which I took most of the work that required.
@@ -22,7 +20,7 @@ source:
     intro: |
       MVP for different industries. During this time I created 2 projects from scratch (including CI/CD, infrastructure, architecture):
     projects: 
-        - name: 'Project: NDA: Nutrición en Acción'
+        - name: 'Project: nda.com.ar'
           content: |
             Nutrition Suite. Main tasks:
             - Rewrite the application with flask, while keeping the previous database.
@@ -35,18 +33,15 @@ source:
             application has an extensive test suite that is run constantly and assures that no bugs
             reach the users. In this case the client had some experience working with agile 
             methodologies, we established a workflow that was very pleasant for all parties involved.
-            
-            **Technologies:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS, metabase.
-        - name: 'Project: Zonia Music'
-          content: |
-            Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main tasks:
-            - Design and implementation of frontend architecture for a new website.
-            - Design and implementation of backend architecture for a new website.
-            - Integration with MercadoPago's payment suite.
 
-            My main achievement was teaching
+            **Stack:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS, metabase.
+        - name: 'Project: zoniamusic.com (Latitud)'
+          content: |
+            Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main achievements:
+            - Cultivating a kind work relationship with my client.
+            - Real-world mindset. The startup achieved pre-seed VC fund backing, and are currently growing their music-loving user base while using this app with few changes.
             
-            **Technologies:** django, django rest framework, wagtail admin, react, tailwind, css, Google Cloud Run, firebase.
+            **Stack:** django, django rest framework, wagtail admin, react, tailwind, css, Google Cloud Run, firebase.
 
   - prof: Software Engineer
     place: C&S Argentina. Buenos Aires, Argentina
@@ -56,23 +51,21 @@ source:
     projects:
       - name: 'Argentine Government Project'
         content: |
-          Critical politically-charged project that aimed to handle a significant amount of the executive branch budget. 
+          Critical politically-charged project that handled a significant amount of the executive branch budget. 
           - I contributed to the design of the software development process.
           - Software design and implementation of a medium-sized, independent module.
           - Write several functional documents.
 
-          **Technologies:** C#, ASP.NET webforms, ASP.NET MVC, GIT, bootstrap, SQL server, NHibernate
+          **Stack:** C#, ASP.NET webforms, ASP.NET MVC, GIT, bootstrap, SQL server, NHibernate
       - name: Confidential Project
         content: |
-          Large size application. The rapport I built with the client helped my employer keep them for longer.
-
-          **Technologies:** Java, spring framework, bootstrap, SQL server.
+          **Stack:** Java, spring framework, bootstrap, SQL server.
 
   - prof: Machine Learning Developer
     place: Ayi & Asociados. Bs As, Argentina
     time: Apr. 2018 to Nov. 2018
     intro: |
-      I built MVPs with Machine Learning technologies. We tested multiple ideas related to image recognition. I had a chance to compare several computer vision libraries.
+      I built MVPs with Machine Learning technologies. I had a chance to compare several computer vision libraries.
       
       **Stack:** Python, OpenCV, sklearn, numpy.
     
