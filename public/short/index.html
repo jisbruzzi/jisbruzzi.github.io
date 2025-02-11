@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="map[]" />
     <meta name="description" content="Software Engineer">
-    <link rel="stylesheet" href="http://localhost:1313/css/base.css">
-    <link rel="stylesheet" href="http://localhost:1313/css/skeleton.css">
-    <link rel="stylesheet" href="http://localhost:1313/css/layout.css">
+    <link rel="stylesheet" href="http://jisbruzzi.github.io/css/base.css">
+    <link rel="stylesheet" href="http://jisbruzzi.github.io/css/skeleton.css">
+    <link rel="stylesheet" href="http://jisbruzzi.github.io/css/layout.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
     
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="favicon" href="http://localhost:1313/img/favicon.ico">
+    <link rel="favicon" href="http://jisbruzzi.github.io/img/favicon.ico">
     
   
 
@@ -30,7 +30,7 @@
     <div class="container">
       <header>
   <div style="display:flex;column-gap: 40px; justify-content: center; align-items: center;">
-    <img src="http://localhost:1313/img/profile.png" class="me">
+    <img src="http://jisbruzzi.github.io/img/profile.png" class="me">
     <h1>José Ignacio Sbruzzi</h1>
   </div>
   <div style="display:flex;column-gap: 40px; justify-content: center;">
@@ -40,14 +40,12 @@
     <a href="https://www.linkedin.com/in/jisbruzzi"><i class="fa fa-linkedin"></i>&nbsp;Linkedin</a>
   </div>
 </header>
-      <div class="nine columns clearfix">
+      <div class="nine columns">
         <section class="thirteen columns"></section>
       </div>
-      <section class="thirteen columns">
-        <article>
-          <p><b>Full-stack Developer</b> with almost <b>7 years</b> of experience, specializing in <b>Typescript, React, Java, python</b></p>
-        </article>
-      </section>
+      <div class="thirteen columns intro">
+        <p><b>Full-stack Developer</b> with <b>almost 7 years</b> of experience, specializing in <b>Typescript, React, Java, python</b>.</p>
+      </div>
       <section class="thirteen columns">
   <h1>Work Experience</h1>
   
@@ -62,9 +60,9 @@
       
     </header>
     
-    <div style="margin-top:15px;">
+    <div class="employment">
       
-      <div style="margin-bottom: 15px; margin-left:15px;">
+      <div class="project">
         <h3>Velocity Automotive</h3>
         <ul>
 <li>Improve UI code quality significatively in a challenging chrome extension adding unit tests to improve reliability.</li>
@@ -94,9 +92,9 @@
       
     </header>
     MVP for different industries. During this time I created 2 projects from scratch (including CI/CD, infrastructure, architecture):
-    <div style="margin-top:15px;">
+    <div class="employment">
       
-      <div style="margin-bottom: 15px; margin-left:15px;">
+      <div class="project">
         <h3>Project: nda.com.ar</h3>
         <p>Nutrition app with many features.</p>
 <ul>
@@ -114,7 +112,7 @@ delivery of value</li>
 
       </div>
       
-      <div style="margin-bottom: 15px; margin-left:15px;">
+      <div class="project">
         <h3>Project: zoniamusic.com (Latitud)</h3>
         <p>Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main achievements:</p>
 <ul>
@@ -139,21 +137,19 @@ delivery of value</li>
       
     </header>
     
-    <div style="margin-top:15px;">
+    <div class="employment">
       
-      <div style="margin-bottom: 15px; margin-left:15px;">
+      <div class="project">
         <h3>Argentine Government Project</h3>
-        <p>Critical politically-charged project that aimed to handle a significant amount of the executive branch budget.
+        <p>Critical politically-charged project that handles a significant amount of the executive branch budget.
 I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive.</p>
 <p><strong>Stack:</strong> C#, ASP.NET webforms, ASP.NET MVC</p>
 
       </div>
       
-      <div style="margin-bottom: 15px; margin-left:15px;">
+      <div class="project">
         <h3>Confidential (private sector) Project</h3>
-        <p>Large size application. The rapport I built with the client helped us keep them for longer.</p>
-<p><strong>Stack:</strong> Java, spring framework, bootstrap, SQL server.</p>
-
+        <strong>Stack:</strong> Java, spring framework, bootstrap, SQL server.
       </div>
       
     </div>
@@ -169,20 +165,48 @@ I fully developed a module that would provide transparency. I collaborated with 
       </span>
       
     </header>
-    <p>I built MVPs with Machine Learning technologies.</p>
+    <p>I built MVPs comparing multiple computer vision libraries.</p>
 <p><strong>Stack:</strong> Python, OpenCV, sklearn, numpy.</p>
 
-    <div style="margin-top:15px;">
+    <div class="employment">
       
     </div>
   </article>
   
 </section>
 
-      <footer class="thirteen columns">
-  <p>&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
-    <a href="http://www.github.com/nurlansu/hugo-vitae/">vitae</a> with ♥</p>
-</footer>
+      <section class="thirteen columns">
+  <h1>Education</h1>
+  
+  <article>
+    <header>
+      <h1>Information Systems Engineer</h1>
+      <span>University of Buenos Aires</span>
+      <span>
+        <address>Buenos Aires, Argentina</address>
+        <time>2014 to 2021</time>
+      </span>
+    </header>
+    
+    
+    Specialization: Management. I graduated with a high GPA and worked as a Teaching Assistant for multiple courses. I got accolades from multiple insitutions for my academic performance.
+    
+  </article>
+  
+</section>
+
+      <section class="thirteen columns">
+  <h1>Courses and certifications</h1>
+  <ul>
+<li>Coursera: Machine Learning (2017)</li>
+<li>ECI 2019: N3: Development and automated testing of RESTful APIs</li>
+<li><strong>First Certificate in English (2014) Grade: A (CEFR C1)</strong></li>
+</ul>
+
+</section>
+      <div class="thirteen columns intro">
+        <p>Visit <a href="https://jisbruzzi.github.io">jisbruzzi.github.io</a> for more information.</p>
+      </div>
     </div>
   </body>
 </html>

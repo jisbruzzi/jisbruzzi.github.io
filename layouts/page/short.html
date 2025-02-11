@@ -6,16 +6,18 @@
   <body>
     <div class="container">
       {{ partial "header_short" . }}
-      <div class="nine columns clearfix">
+      <div class="nine columns">
         <section class="thirteen columns"></section>
       </div>
-      <section class="thirteen columns">
-        <article>
-          <p><b>Full-stack Developer</b> with almost <b>7 years</b> of experience, specializing in <b>Typescript, React, Java, python</b></p>
-        </article>
-      </section>
+      <div class="thirteen columns intro">
+        <p><b>Full-stack Developer</b> with <b>almost 7 years</b> of experience, specializing in <b>Typescript, React, Java, python</b>.</p>
+      </div>
       {{ partial "employment_short" . }}
-      {{ partial "footer" . }}
+      {{ partial "education_short" . }}
+      {{ partial "section" .Site.Data.other_achievements }}
+      <div class="thirteen columns intro">
+        <p>Visit <a href="https://jisbruzzi.github.io">jisbruzzi.github.io</a> for more information.</p>
+      </div>
     </div>
   </body>
 </html>

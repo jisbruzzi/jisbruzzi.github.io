@@ -1,0 +1,23 @@
+<section class="thirteen columns">
+  <h1>{{ .Site.Data.education_short.name }}</h1>
+  {{ range .Site.Data.education_short.source }}
+  <article>
+    <header>
+      <h1>{{ .title }}</h1>
+      <span>{{ .univ }}</span>
+      <span>
+        <address>{{ .place }}</address>
+        <time>{{ .date }}</time>
+      </span>
+    </header>
+    {{ if .description }}
+    <p>
+      <em>{{ title .type }}: {{ .description }}</em>
+    </p>
+    {{ end }}
+    {{ if .content }}
+    {{ .content | markdownify }}
+    {{ end }}
+  </article>
+  {{ end }}
+</section>

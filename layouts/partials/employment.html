@@ -16,9 +16,9 @@
       {{ end }}
     </header>
     {{ .intro | markdownify }}
-    <div style="margin-top:15px;">
+    <div class="employment">
       {{ range .projects }}
-      <div style="margin-bottom: 15px; margin-left:15px;">
+      <div class="project">
         <h3>{{ .name }}</h3>
         {{ .content | markdownify }}
       </div>

@@ -47,21 +47,19 @@ source:
     projects:
       - name: 'Argentine Government Project'
         content: |
-          Critical politically-charged project that aimed to handle a significant amount of the executive branch budget. 
+          Critical politically-charged project that handles a significant amount of the executive branch budget. 
           I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive.
 
           **Stack:** C#, ASP.NET webforms, ASP.NET MVC
 
       - name: Confidential (private sector) Project
         content: |
-          Large size application. The rapport I built with the client helped us keep them for longer.
-
           **Stack:** Java, spring framework, bootstrap, SQL server.
 
   - prof: Machine Learning Developer
     place: Ayi & Asociados. Bs As, Argentina
     time: Apr. 2018 to Nov. 2018
     intro: |
-      I built MVPs with Machine Learning technologies. 
+      I built MVPs comparing multiple computer vision libraries.
       
       **Stack:** Python, OpenCV, sklearn, numpy.
