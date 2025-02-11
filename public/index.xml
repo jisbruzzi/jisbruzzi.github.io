@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://jisbruzzi.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 13 Aug 2024 17:18:33 -0300</lastBuildDate>
-    <atom:link href="http://jisbruzzi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Short</title>
-      <link>http://jisbruzzi.github.io/short/</link>
+      <link>http://localhost:1313/short/</link>
       <pubDate>Tue, 13 Aug 2024 17:18:33 -0300</pubDate>
-      <guid>http://jisbruzzi.github.io/short/</guid>
+      <guid>http://localhost:1313/short/</guid>
       <description></description>
     </item>
   </channel>
