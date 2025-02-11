@@ -15,3 +15,11 @@ article h2 {
 section li {
     margin-bottom: 4px;  
 }
+
+b {
+    font-weight: bold !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
+}

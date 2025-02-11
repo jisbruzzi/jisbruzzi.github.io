@@ -1,30 +1,29 @@
 name: Work Experience
 source:
-  - prof: Frontend-oriented Full-stack software engineer
-    place: Entropy offshore development center (Remote)
+  - prof: Full-stack software engineer
+    place: Entropy team (Remote)
     time: Since Aug. 2021
     projects: 
-        - name: 'Vehicle marketing company'
+        - name: Velocity Automotive
           content: |
-            - A Chrome extension that is key to the company value proposition would break constantly which demanded overtime from several members of the team. I created unit tests and used them to refactor, which greatly increased its stability and reliability.
-            - I made the chrome extension work in a wide variety of websites built with several different web technologies. My full-stack experience was a key factor to resolve these issues.
-            - I carried out the development of multiple full redesigns of our main UI, which impacted every single one of our users, increasing engagement.
-            - Full-stack development of complex reports. I was able to do some query optimizations and communicate with our DBA to suggest indexes.
-            - I also carried out some optimizations and updates in our data pipeline.
+            - Improve UI code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
+            - Full-stack development of several features. Highlights:
+              - Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA.
+              - Full redesigns of the UI of the product, in which I took most of the work that required.
             
-            My biggest achievement was being able to adapt to new ways of working through multiple leadership changes and an acquisition.
+            My biggest achievement was being able to adapt to new ways of working through multiple leadership changes.
             
-            **Stack:** typescript, react, next.js, Material UI, react-query, java, spring boot, redshift, python, AWS.
+            **Technologies:** typescript, react, next.js, Material UI, react-query, java, spring boot, redshift, AWS.
   - prof: Generalist Software Engineer
     place: Freelance (Remote)
     time: Sep. 2020 to Jul. 2021
     intro: |
       MVP for different industries. During this time I created 2 projects from scratch (including CI/CD, infrastructure, architecture):
     projects: 
-        - name: 'Project: NDA: Nutrición en Acción'
+        - name: 'Project: nda.com.ar'
           content: |
-            Nutrition Suite. Main tasks:
-            - Rewrite the application with flask, while keeping the previous database.
+            Nutrition app with many features.
+            - Migrate an existing php app to flask.
             - Build the testing pipeline, using Gitlab for CI
             - Fully committed to the principles of the Agile, with constant communication and
             delivery of value
@@ -34,7 +33,7 @@ source:
             - Establishing an agile workflow with stakeholders that had no former experience with software development projects.
             
             **Stack:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS, metabase.
-        - name: 'Project: Zonia Music (Latitud)'
+        - name: 'Project: zoniamusic.com (Latitud)'
           content: |
             Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main achievements:
             - Cultivating a kind work relationship with my client.
@@ -49,7 +48,7 @@ source:
       - name: 'Argentine Government Project'
         content: |
           Critical politically-charged project that aimed to handle a significant amount of the executive branch budget. 
-          During the presidential race, I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive. As a testament to how impactful the feature would have been, the module was disabled shortly after the ruling party lost the election.
+          I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive.
 
           **Stack:** C#, ASP.NET webforms, ASP.NET MVC
 
@@ -63,6 +62,6 @@ source:
     place: Ayi & Asociados. Bs As, Argentina
     time: Apr. 2018 to Nov. 2018
     intro: |
-      I built machine learning MVPs     with Machine Learning technologies. 
+      I built MVPs with Machine Learning technologies. 
       
       **Stack:** Python, OpenCV, sklearn, numpy.

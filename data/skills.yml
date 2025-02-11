@@ -4,38 +4,19 @@ categories:
     items:
       - '**Typescript**'
       - '**React**'
+      - '**next.js**'
       - '**Python**'
       - Material UI
       - Java
       - Jest
-      - nextJS
-      - Redux
-      - JWT
-      - Sass
-      - flask 
       - CI/CD
+      - Spring boot
       - django
-      - Vue 2
       - terraform
-      - Quasar
       - Node JS
       - '**numpy**'
-      - Spring boot
-      - C
-      - webgl
-      - C# 
-      - lisp
-      - Bootstrap
-      - clojure
-      - Javascript
-      - tailwind
-      - IIS
-      - nextJS 
-      - GLSL
-      - Gastby
-      - Electron JS
-      - ocaml
-      - coq
+      - C#
+      - Docker
   - name: Databases
     items:
       - mongoDB
@@ -48,7 +29,5 @@ categories:
       - Jira
       - GCP
       - AWS
-      - Cypress
       - Github
       - Firebase
-      - Docker

@@ -8,7 +8,6 @@ source:
     projects: 
         - name: 'Vehicle marketing company'
           content: |
-            This is a stablished startup from the USA that is improving their product. My tasks:
             - Improve UI code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
             - Full-stack development of several features. Highlights:
               - Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA.
@@ -57,19 +56,15 @@ source:
     projects:
       - name: 'Argentine Government Project'
         content: |
-          Hiring suite for government providers and licitations management system. Main tasks:
-          - I was in charge of fixing bugs and refactoring technical debt.
-          - I contributed to the design of the software development process of a specific project.
+          Critical politically-charged project that aimed to handle a significant amount of the executive branch budget. 
+          - I contributed to the design of the software development process.
           - Software design and implementation of a medium-sized, independent module.
           - Write several functional documents.
 
           **Technologies:** C#, ASP.NET webforms, ASP.NET MVC, GIT, bootstrap, SQL server, NHibernate
       - name: Confidential Project
         content: |
-          Large size application. Main tasks executed in the project:
-          - Bugs fixing and technical debt refactoring.
-          - Research, design and implementation of a software development process that was specific to that project.
-          - Write some functional documents for new functionalities.
+          Large size application. The rapport I built with the client helped my employer keep them for longer.
 
           **Technologies:** Java, spring framework, bootstrap, SQL server.
 
@@ -77,27 +72,7 @@ source:
     place: Ayi & Asociados. Bs As, Argentina
     time: Apr. 2018 to Nov. 2018
     intro: |
-      I built MVPs with Machine Learning technologies. During this time I participated in the following projects:
-    projects:
-      - name: 'Project: Face Recognition Totem (Jun 2018 – Oct 2018)'
-        content: |
-          Face recognition product to authenticate visitors that has scheduled meetings on Offices
-          buildings. Main tasks executed in the project:
-          - Integrate Face++ API with Local database
-          - Test and Integrate solution with hardware (Cams) through different stream
-          protocols.
-          My main achievement was to develop a test suite and tooling to track performance and quality of our solution.
-
-          **Technologies:** Face++ API, AWS, Python, C#, Django, dlib, OpenCV.
-      - name: 'Project: Face Recognition Watcher (Jun 2018 – Oct 2018)'
-        content: |
-          Face recognition product to watch for non trusted visitors on home buildings.
-          Main tasks executed in the project:
-          - Integrate Face++ API with Local database
-          - Test and Integrate solution with hardware (Cameras) through different stream
-          protocols.
-          - Test and integrate with a security provider system
-          My main achievement was to design an API for third party integrations.
-
-          **Technologies:** Face++ API, AWS, Python, C#, Django, dlib, OpenCV.
+      I built MVPs with Machine Learning technologies. We tested multiple ideas related to image recognition. I had a chance to compare several computer vision libraries.
+      
+      **Stack:** Python, OpenCV, sklearn, numpy.
     
