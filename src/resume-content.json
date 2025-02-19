@@ -1,0 +1,145 @@
+{
+  "personalInfo": {
+    "name": "José Ignacio Sbruzzi",
+    "title": "Full-stack Software Engineer",
+    "email": "jisbruzzi@gmail.com",
+    "phone": "(+54) 911 6908 6300",
+    "location": "Buenos Aires, Argentina",
+    "linkedin": "jisbruzzi"
+  },
+  "summary": "Full-stack software developer with 6+ years working experience using a wide range of technologies. I have worked in the industry as an employee and also as a freelancer, in some cases developing projects from scratch. I graduated as an engineer from University of Buenos Aires with a high GPA.",
+  "experience": [
+    {
+      "company": "Entropy team",
+      "position": "Full-stack software engineer",
+      "period": "Since Aug. 2021",
+      "responsibilities": [],
+      "projects": [
+        {
+          "name": "Velocity Automotive",
+          "details": [
+            "Improve code quality significatively in a challenging chrome extension adding unit tests to improve reliability",
+            "Full-stack development of several features. Highlights:",
+            "Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA",
+            "Full redesigns of the UI of the product, in which I took most of the work that required",
+            "My biggest achievement was being able to adapt to new ways of working through multiple leadership changes",
+            "Technologies: typescript, react, next.js, Material UI, react-query, java, spring boot, redshift, AWS"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "Generalist Software Engineer",
+      "period": "Sep. 2020 to Jul. 2021",
+      "responsibilities": [
+        "MVP for different industries. During this time I created 2 projects from scratch (including CI/CD, infrastructure, architecture)"
+      ],
+      "projects": [
+        {
+          "name": "Project: nda.com.ar",
+          "details": [
+            "Nutrition app with many features",
+            "Migrate an existing php app to flask",
+            "Build the testing pipeline, using Gitlab for CI",
+            "Fully committed to the principles of the Agile, with constant communication and delivery of value",
+            "Biggest achievements:",
+            "keeping the app reliable while shipping new features constantly and having no testers. I built a large e2e test suite to accomplish this",
+            "Establishing an agile workflow with stakeholders that had no former experience with software development projects",
+            "Stack: python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS, metabase"
+          ]
+        },
+        {
+          "name": "Project: zoniamusic.com (Latitud)",
+          "details": [
+            "Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main achievements:",
+            "Cultivating a kind work relationship with my client",
+            "Real-world mindset. The startup achieved pre-seed VC fund backing, and are currently growing their music-loving user base while using this app with few changes",
+            "Stack: django, django rest framework, wagtail admin, react, tailwind, css, Google Cloud Run, firebase"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "C&S Argentina",
+      "position": "Software Engineer",
+      "period": "Nov. 2018 to Sep. 2020",
+      "responsibilities": [],
+      "projects": [
+        {
+          "name": "Argentine Government Project",
+          "details": [
+            "Critical politically-charged project that handles a significant amount of the executive branch budget",
+            "I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive",
+            "Stack: C#, ASP.NET webforms, ASP.NET MVC"
+          ]
+        },
+        {
+          "name": "Confidential (private sector) Project",
+          "details": [
+            "Stack: Java, spring framework, bootstrap, SQL server"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ayi & Asociados",
+      "position": "Machine Learning Developer",
+      "period": "Apr. 2018 to Nov. 2018",
+      "responsibilities": [
+        "I built MVPs comparing multiple computer vision libraries",
+        "Stack: Python, OpenCV, sklearn, numpy"
+      ],
+      "projects": []
+    }
+  ],
+  "education": {
+    "degree": "Information Systems Engineer",
+    "institution": "University of Buenos Aires",
+    "graduationYear": 2021,
+    "achievements": [
+      "Teaching Assistant for multiple courses including Compilers and Programming Languages",
+      "Final project selected as third best work in important local symposium",
+      "Awarded Isidoro Martin prize for being one of the best graduates",
+      "Graduated with GPA of 8.5"
+    ]
+  },
+  "skills": [
+    "Typescript",
+    "React",
+    "Next.js",
+    "Python",
+    "Material UI",
+    "Java",
+    "Jest",
+    "CI/CD",
+    "Spring Boot",
+    "Django",
+    "Terraform",
+    "Node.js",
+    "NumPy",
+    "C#",
+    "Docker",
+    "MongoDB",
+    "Firestore",
+    "GraphQL",
+    "SQL",
+    "GitLab",
+    "Jira",
+    "GCP",
+    "AWS",
+    "GitHub",
+    "Firebase"
+  ],
+  "languages": [
+    "Spanish (native)",
+    "Portuguese (very advanced)",
+    "English (CEFR level C1)"
+  ],
+  "certifications": [
+    "Machine Learning - Coursera (2017)",
+    "Development and automated testing of RESTful APIs - ECI 2019",
+    "First Certificate in English - Grade A, CEFR C1 (2014)"
+  ]
+}
+
