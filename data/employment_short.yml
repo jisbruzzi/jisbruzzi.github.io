@@ -13,12 +13,12 @@ source:
             
             My biggest achievement was being able to adapt to new ways of working through multiple leadership changes.
             
-            **Technologies:** typescript, react, next.js, Material UI, react-query, java, spring boot, redshift, AWS.
+            **Technologies:** typescript, react, next.js, java, spring boot, Material UI, react-query, AWS, lambda
   - prof: Generalist Software Engineer
     place: Freelance (Remote)
     time: Sep. 2020 to Jul. 2021
     intro: |
-      MVP for different industries. During this time I created 2 projects from scratch (including CI/CD, infrastructure, architecture):
+      MVP for different industries. During this time I created 2 projects **from scratch** (including CI/CD, infrastructure, architecture) while handling the **relationship and communication with my customers**:
     projects: 
         - name: 'Project: nda.com.ar'
           content: |
@@ -31,35 +31,20 @@ source:
             Biggest achievements:
             - keeping the app reliable while shipping new features constantly and having no testers. I built a large e2e test suite to accomplish this.
             - Establishing an agile workflow with stakeholders that had no former experience with software development projects.
-            
-            **Stack:** python, flask, sqlalchemy, flask-admin, react, Gatsby, MaterialUI, vuejs, quasar, firebase, AWS, metabase.
         - name: 'Project: zoniamusic.com (Latitud)'
           content: |
             Music streaming platform that allows fans to contribute to artists through an innovative monetization model. Main achievements:
             - Cultivating a kind work relationship with my client.
             - Real-world mindset. The startup achieved pre-seed VC fund backing, and are currently growing their music-loving user base while using this app with few changes.
-            
-            **Stack:** django, django rest framework, wagtail admin, react, tailwind, css, Google Cloud Run, firebase.
 
-  - prof: Software Engineer
+  - prof: Semisenior Software Developer
     place: C&S Argentina. Buenos Aires, Argentina
     time: Nov. 2018 to Sep. 2020
-    projects:
-      - name: 'Argentine Government Project'
-        content: |
-          Critical politically-charged project that handles a significant amount of the executive branch budget. 
-          I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive.
-
-          **Stack:** C#, ASP.NET webforms, ASP.NET MVC
-
-      - name: Confidential (private sector) Project
-        content: |
-          **Stack:** Java, spring framework, bootstrap, SQL server.
+    intro: |
+      I worked on a **critical politically-charged project** that handles a significant portion of the executive branch budget. I fully developed a module that would provide transparency. I collaborated with the UX team to make it clear, usable and attractive.
 
   - prof: Machine Learning Developer
     place: Ayi & Asociados. Bs As, Argentina
     time: Apr. 2018 to Nov. 2018
     intro: |
       I built MVPs comparing multiple computer vision libraries.
-      
-      **Stack:** Python, OpenCV, sklearn, numpy.

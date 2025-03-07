@@ -1,33 +1,42 @@
 name: Skills
 categories:
-  - name: Technologies & Languages
+  - name: Main
     items:
       - '**Typescript**'
       - '**React**'
       - '**next.js**'
+      - '**Java**'
       - '**Python**'
+      - Spring boot
       - Material UI
-      - Java
+      - tailwindcss
+      - SQL
+      - Docker
+      - AWS
+      - Lambdas
+  - name: Used
+    items:
       - Jest
       - CI/CD
-      - Spring boot
       - django
+      - flask
+      - github actions
+      - cypress
       - terraform
       - Node JS
-      - '**numpy**'
       - C#
-      - Docker
-  - name: Databases
-    items:
       - mongoDB
       - Firestore
       - GraphQL
-      - SQL
-  - name: Platforms
-    items:
       - Gitlab
       - Jira
       - GCP
-      - AWS
       - Github
       - Firebase
+      - Gatsby
+      - vuejs
+      - django rest framework
+      - ASP.NET MVC
+      - OpenCV
+      - sklearn
+      - numpy

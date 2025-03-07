@@ -5,9 +5,9 @@
     <header>
       
       <div style="display:flex;justify-content: flex-start; flex-wrap: wrap;" class="thirteen columns">
-        <div style="margin:5px;" class="skills_header">{{ .name | markdownify }}:</div>
+        <div style="margin-right:5px;" class="skills_header">{{ .name | markdownify }}:</div>
         {{ range .items }}
-          <div style="margin:5px;">{{ . | markdownify }}</div>
+          <div style="margin:0 5px;">{{ . | markdownify }}</div>
         {{ end }}
       </div>
     </header>
