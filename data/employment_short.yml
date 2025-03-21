@@ -4,16 +4,21 @@ source:
     place: Entropy team (Remote)
     time: Since Aug. 2021
     projects: 
-        - name: Velocity Automotive
+        - name: Velocity Automotive ( velocityautomotive.com )
           content: |
-            - Improve code quality significatively in a challenging chrome extension adding unit tests to improve reliability.
-            - Full-stack development of several features. Highlights:
-              - Complex reports, I was able to optimize the query in these cases to take advantage of existing indices, and suggested indexes to the DBA.
-              - Full redesigns of the UI of the product, in which I took most of the work that required.
+            - Maintain and improve an initially unreliable chrome extension that is key to our value proposition, allowing easy acces to our flagship products.
+            - Full-stack development of complex reports, I was able to optimize the query in these cases to take advantage of existing indices (10x speedup).
+            - Multiple full redesigns of the UI of one of our main products, where I collaborated with multiple stakeholders (UX designers, product owners, leadership) to push the project to the finish line.
+            - Deploy advanced features of react-query and Material UI to improve user experience and styles
+            - Advocate for the adoption of prettier, eslint.
+            - Collaborate with leadership on the design of UI development patterns and building standards across teams.
+            - Maintainance of our python data pipelines.
+            - Some projects that pushed my knowledge of the web platform to its limits:
+              - Fix challenging errors in the chrome extension that were related to specific stacks (e.g. shadow DOM, HTML over the wire, infinite scrolling)
+              - A custom code tag that our customers would add to their websites. It required to be very lightweight vanilla js and had plenty of interactive features.
+              - Web crawlers that automated data collection, this involved reverse-engineering third party websites.
             
-            My biggest achievement was being able to adapt to new ways of working through multiple leadership changes.
-            
-            **Technologies:** typescript, react, next.js, java, spring boot, Material UI, react-query, AWS, lambda
+            **Technologies:** typescript, react, next.js, java, spring boot, Material UI, react-query, AWS, python, lambda
   - prof: Generalist Software Engineer
     place: Freelance (Remote)
     time: Sep. 2020 to Jul. 2021
