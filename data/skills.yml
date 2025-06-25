@@ -2,13 +2,12 @@ name: Skills
 categories:
   - name: Main
     items:
-      - '**Typescript**'
       - '**React**'
       - '**next.js**'
-      - '**Java**'
+      - '**Typescript**'
+      - '**Spring boot**'
       - '**Python**'
-      - Spring boot
-      - Material UI
+      - Java
       - tailwindcss
       - SQL
       - Docker
@@ -16,6 +15,7 @@ categories:
       - Lambdas
   - name: Used
     items:
+      - Material UI
       - Jest
       - CI/CD
       - django
