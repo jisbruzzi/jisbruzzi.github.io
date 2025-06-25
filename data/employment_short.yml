@@ -3,7 +3,15 @@ source:
   - prof: Full-stack software engineer
     place: Entropy team (Remote)
     time: Since Aug. 2021
-    projects: 
+    projects:
+        - name: Counsel Press, Inc. ( counselpress.com )
+          content: |
+            - Spearheaded the migration of a legacy admin tool to Next.js and Spring Boot, enhancing performance and user experience. 
+            - Established and implemented a robust UI architecture while collaborating on API definitions to streamline development. 
+            - Rapidly delivered new screens and features using existing code, supported by a good initial design
+            - Fostered a collaborative environment as the first member of a newly formed team.
+            
+            **Technologies:** typescript, react, next.js, java, spring boot, tailwindcss, react-query, shadcn/ui 
         - name: Velocity Automotive ( velocityautomotive.com )
           content: |
             - Maintain and improve an initially unreliable chrome extension that is key to our value proposition, allowing easy acces to our flagship products.
